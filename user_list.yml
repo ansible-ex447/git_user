@@ -1,8 +1,10 @@
 ---
 users:
-  - name: arvindkumer1
-    group: manager1
+  - name: frank
+    group: developer
 
-  - name: jayabachan1
-    group: test1
+  - name: harry
+    group: manager
 
+  - name: bob
+    group: hr
