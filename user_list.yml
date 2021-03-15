@@ -1,7 +1,8 @@
 ---
 users:
-  - name: kaku
-    group: child
+  - name: arvindkumer1
+    group: manager1
 
-  - name: pataku
-    group: chilldren
+  - name: jayabachan1
+    group: test1
+
