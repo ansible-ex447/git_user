@@ -1,8 +1,8 @@
 ---
 users:
-  - name: kaku1
-    group: engineer
-  - name: pataku1
-    group: doctor
-  - name: chalaku1
-    group: pilot
+  - name: arvindkumer1
+    group: manager1
+
+  - name: jayabachan1
+    group: test1
+
