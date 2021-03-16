@@ -1,8 +1,6 @@
 ---
 users:
-  - name: arvindkumer1
-    group: manager1
-
-  - name: jayabachan1
-    group: test1
-
+  - name: mikka
+    group: sopu
+  - name: tikka
+    group: topu
