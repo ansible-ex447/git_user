@@ -1,17 +1,19 @@
 ---
 - name: create users
   hosts: all
-  become: yes
-  vars_files: user_list.yml
+  vars_files:
+    - user_list.yml
   tasks:
-    - name: create group
+    - name: create users
       group:
         name: "{{ item.group }}"
         state: present
       with_items: "{{ users }}"
-    - name: add users
+
+    - name: add user
       user:
         name: "{{ item.name }}"
         group: "{{ item.group }}"
         state: present
-      with_items: "{{ users }}" 
+      with_items: "{{ users }}"
+...
