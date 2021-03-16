@@ -1,6 +1,6 @@
 ---
 users:
-  - name: mikka
-    group: sopu
-  - name: tikka
-    group: topu
+  - name: bob
+    group: devops
+  - name: harry
+    group: eng
