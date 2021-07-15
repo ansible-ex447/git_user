@@ -2,7 +2,3 @@
 users:
   - name: bob
     group: devops
-  - name: harry
-    group: eng
-  - name: mathew
-    group: manager 
