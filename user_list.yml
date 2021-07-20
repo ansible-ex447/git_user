@@ -1,6 +1,4 @@
 ---
 users:
-  - name: laddu
-    group: dev
-  - name: gudia
-    group: prod
+  - name: bob
+    group: devops
