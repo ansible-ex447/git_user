@@ -2,3 +2,5 @@
 users:
   - name: bob
     group: devops
+  - name: deep
+    group: test
