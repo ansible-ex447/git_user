@@ -5,16 +5,4 @@
   vars_files:
     - user_list.yml
   tasks:
-    - name: group create 
-      group:
-        name: "{{ item.group }}"
-        state: present
-      with_items: "{{ users }}"
-
-    - name: user create
-      user:
-        name: "{{ item.name }}"
-        group: "{{ item.group }}"
-        state: present
-      with_items: "{{ users }}"
 ...
